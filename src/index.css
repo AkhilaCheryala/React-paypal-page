@@ -2,3 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+input , select{
+    @apply p-2 border rounded-md text-slate-900 border-slate-400 text-base font-medium ;
+}
