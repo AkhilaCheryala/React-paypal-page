@@ -29,7 +29,7 @@ const Nav = () => {
                 </button>
             </div>
             {menuOpen && (
-                <div className="fixed inset-0 flex   mt-16 bg-white bg-opacity-95 ">
+                <div className="fixed inset-0 flex   mt-16  bg-white bg-opacity-95 ">
                     <div className="max-w-md p-8 ">
                        <div className="flex flex-col gap-12 text-2xl text-blue-900 ">
                             <a href="/"  >Personal <FontAwesomeIcon icon= {faChevronRight} className="w-4 h-5"/></a>

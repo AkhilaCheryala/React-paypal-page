@@ -1,7 +1,7 @@
 const Form = () => {
     return (
       <div>
-        <form className="sm:w-1/3 border border-slate-400 m-4 flex flex-col gap-6 p-6 absolute shadow-lg shadow-slate-600 rounded-lg right-3.5 top-60 ">
+        <form className="lg:w-2/5 border border-slate-400 m-2 flex flex-col gap-6 lg:p-6 py-6 px-3 absolute shadow-lg shadow-slate-600 rounded-lg lg:right-20 lg:top-60 bg-white top-72 ">
           <h2 className="text-2xl text-blue-900 font-bold ">Get Started</h2>
           <p> Tell us a little about your business so we can connect you with the right people.</p>
           <input type="text" name="firstname" placeholder="First name*" />
