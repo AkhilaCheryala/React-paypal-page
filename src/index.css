@@ -3,5 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 input , select{
-    @apply p-2 border rounded-md text-slate-900 border-slate-400 text-base font-medium ;
+    @apply p-2 py-3 border rounded-md border-slate-600 text-base font-medium ;
+}
+body{
+    @apply bg-neutral-100;
+}
+.footer-link{
+    @apply hover:underline underline-offset-4;
 }
