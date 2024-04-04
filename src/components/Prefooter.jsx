@@ -8,7 +8,7 @@ const Prefooter = () => {
             </div>
         <div className="flex lg:flex-row flex-col  gap-24 m-2 ml-10 font-normal">
              <p className=" lg:hidden font-bold mb-[-5rem] text-lg">Small-to-Medium Business</p>
-             <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400 ">
+             <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400 mb-[-5rem] ">
                 <div className="pre-p font-medium ">
                     <p>Introduction</p>
                     <p>Getting Started</p>
@@ -24,7 +24,7 @@ const Prefooter = () => {
             </div>
             <p className=" lg:hidden font-bold mb-[-5rem] text-lg">Enterprise</p>
 
-            <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400">
+            <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400 mb-[-5rem]">
                 
                 <div className="pre-p font-medium">
                     <p>Introduction</p>
