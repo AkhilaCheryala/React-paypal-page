@@ -11,3 +11,6 @@ body{
 .footer-link{
     @apply hover:underline underline-offset-4;
 }
+.pre-p p{
+  @apply py-1;  
+}

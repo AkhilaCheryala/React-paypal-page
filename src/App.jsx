@@ -4,6 +4,7 @@
 import Enquiry from "./components/Enquiry";
 import Vector from "./components/Vector";
 import Footer from "./components/Footer";
+import Prefooter from "./components/Prefooter";
  
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
        <Enquiry/>
       </div>
       <Vector/>
+      <Prefooter/>
      <Footer/>
     </div>
   
