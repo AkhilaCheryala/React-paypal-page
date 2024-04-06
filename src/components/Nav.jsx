@@ -43,8 +43,9 @@ const Nav = () => {
                 {(showSignUp || showLogin) && (
                     <div>
                         <SignUpLogin
-                            onSignUp={() => setShowSignUp(false)} 
-                            onLogin={() => setShowLogin(false)}  
+                            isSignUp={showSignUp}
+                            onSignUp={handleSignUp} 
+                            onLogin={handleLogin}  
                             onClose={handleCloseSignUpLogin}   />
                     </div>
                 )}

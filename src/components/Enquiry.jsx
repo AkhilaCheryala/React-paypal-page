@@ -5,8 +5,8 @@ const Enquiry = () => {
 
     return (
         <div>
-            <div className=" hidden lg:block  lg:pl-20   lg:flex lg:flex-col lg:gap-8 lg:mt-[-54rem]  ">
-                <p className="text-3xl font-normal lg:w-72  "> Some other ways to connect with us</p>
+            <div className=" hidden  lg:pl-20   lg:flex lg:flex-col lg:gap-8 lg:mt-[-54rem]  ">
+                <p className="text-3xl font-medium lg:w-72  "> Some other ways to connect with us</p>
                 <div>
                     <p className=" font-medium text-lg lg:mb-2 "> Want to speak with Sales right away?</p>
                     <a href="/" className="text-sky-600 text-medium font-bold ">Call 888-777-6666</a>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-const SignUpLogin = ({ onSignUp, onLogin, onClose }) => {
-  const [isSignUp, setIsSignUp] = useState(false);
+const SignUpLogin = ({ isSignUp, onSignUp, onLogin, onClose }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -17,19 +16,25 @@ const SignUpLogin = ({ onSignUp, onLogin, onClose }) => {
   };
 
   const handleClose = () => {
-    setIsSignUp(false);
-    onClose(); // Close the SignUpLogin component
+    onClose(); 
   };
-
+ const handleToggle =()=>{
+   if (isSignUp){
+    onLogin (username,password);
+   }else{
+    onSignUp(username,password);
+   }
+   setUsername('');
+   setPassword('');
+   console.log("toggle button is clicked");
+   console.log("isSignup:",isSignUp);
+   };
+ 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
       <div className="bg-white p-8  rounded-md w-80">
-        <button
-          onClick={handleClose}
-          className=" font-bold ml-[15rem] mt-[-1rem] text-red-700 text-xl "
-        >
-          X
-        </button>
+        <button onClick={handleClose}
+          className=" font-bold ml-[15rem] mt-[-1rem] text-red-700 text-xl "> X </button>
         {isSignUp ? (
           <div>
             <h2 className="text-2xl font-bold mb-6 underline text-blue-600 text-center">Sign Up</h2>
@@ -39,25 +44,13 @@ const SignUpLogin = ({ onSignUp, onLogin, onClose }) => {
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="border p-2 rounded-md"
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="border p-2 rounded-md"
-              />
-              <button
-                type="submit"
-                className="bg-blue-500 text-white py-2 rounded-md hover:bg-blue-300"
-              >
-                Sign Up
+                className="border p-2 rounded-md"/>
+              <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}
+                className="border p-2 rounded-md"/>
+              <button type="submit" className="bg-blue-500 text-white py-2 rounded-md hover:bg-blue-300">
+                 Sign Up
               </button>
-              <button
-                onClick={() => setIsSignUp(false)}
-               
-              >
+              <button onClick={handleToggle}>
                 Already have an account? <span  className="text-blue-500 underline mt-2">Login</span>
               </button>
             </form>
@@ -86,10 +79,7 @@ const SignUpLogin = ({ onSignUp, onLogin, onClose }) => {
               >
                 Login
               </button>
-              <button
-                onClick={() => setIsSignUp(true)}
-                
-              >
+              <button onClick={handleToggle}>
                 Don't have an account? <span className="text-blue-500 mt-2 underline">Sign Up</span> 
               </button>
             </form>
