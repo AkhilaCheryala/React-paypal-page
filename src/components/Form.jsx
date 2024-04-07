@@ -11,7 +11,7 @@ const Form = () => {
           <input type="text" name="company" placeholder="Company name*" required />
           <input type="text" name="companyurl" placeholder="Company website*"required  />
           <select name="Country"  required >
-         <option value="" disabled >Country*</option>
+         <option value={''} disabled selected>Country</option>
             <option value={'us'}>United States</option>
             <option value={'india'}>India</option>
             <option value={'Japan'}>Japan</option>
@@ -19,14 +19,14 @@ const Form = () => {
             <option value={'Russia'}>Russia</option>
           </select>
           <select name="sales" required >
-          <option value="" disabled>Estimated Annual Sales*</option>
+          <option value="" disabled selected>Estimated Annual Sales*</option>
             <option value={'one'}>Less than $100,000</option>
             <option value={"two"}>$100,000-$500,000</option>
             <option value={'three'}>$500,000-$1,000,000</option>
             <option value={'four'}>More than $1,000,000</option>
           </select>
           <select name="question">
-          <option value="" disabled>Do you have a payPal Business Account?*</option>
+          <option value="" disabled selected>Do you have a payPal Business Account?*</option>
             <option value={'yes'}>Yes</option>
             <option value={'No'}>No</option>
           </select>
