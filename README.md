@@ -10,6 +10,7 @@ This project is a  designing one of  responsive PayPal page  using React and Tai
 - **Modern Technologies**: Utilizes React for frontend development and Tailwind CSS for styling, showcasing proficiency in these technologies.
 - **Simplified Interface**: The interface is designed to be user-friendly and intuitive, focusing on ease of navigation and readability.
 - **Signup/Login**:Integrated toggle functionality to enable user to switch between forms.
+- **Responsive Nav**: Included responsive Nav bar for small screens.
 ## Skills Utilized
 
 - **React**: Leveraged for building dynamic user interfaces and managing state efficiently, demonstrating proficiency in React development.
