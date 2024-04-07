@@ -1,5 +1,7 @@
 import logo from '../assets/logo.svg';
 import flag from '../assets/flag.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 const Footer =()=>{
 
     return(
@@ -28,7 +30,7 @@ const Footer =()=>{
         <a href='/' className='footer-link'>Public Policy</a>
         </div>
         <div className='flex gap-4 font-semibold '>
-        <a href='/' className='text-slate-600 font-medium'>1994</a>
+        <a href='/' className='text-slate-600 font-medium'> <FontAwesomeIcon icon={faCopyright}/> 1994-2024</a>
         <a href='/' className='footer-link'>Accessibility</a>
         <a href='/' className='footer-link'>Privacy</a>
         <a href='/' className='footer-link'>Cookies</a>
