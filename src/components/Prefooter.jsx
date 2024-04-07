@@ -7,14 +7,14 @@ const Prefooter = () => {
                 <p className="ml-[6.5rem]" >more</p>
             </div>
         <div className="flex lg:flex-row flex-col  gap-24 m-2 ml-10 font-normal">
-             <p className=" lg:hidden font-bold mb-[-5rem] text-lg">Small-to-Medium Business</p>
+             <p className=" lg:hidden font-bold mb-[-5rem] text-lg text-blue-800">Small-to-Medium Business</p>
              <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400 mb-[-5rem] ">
-                <div className="pre-p font-medium ">
+                <div className="pre-p font-bold ">
                     <p>Introduction</p>
                     <p>Getting Started</p>
                 </div>
                 <div className="pre-p">
-                    <p className="font-medium">All Solutions</p>
+                    <p className="font-bold">All Solutions</p>
                     <p>Accept Payments</p>
                     <p>Make Payments</p>
                     <p>Manage Risk</p>
@@ -22,16 +22,16 @@ const Prefooter = () => {
                     <p>Streamline Operations</p>
                 </div>
             </div>
-            <p className=" lg:hidden font-bold mb-[-5rem] text-lg">Enterprise</p>
+            <p className=" lg:hidden font-bold mb-[-5rem] text-lg  text-blue-800">Enterprise</p>
 
             <div className="grid grid-cols-2 lg:gap-20 gap-10 border-t pt-2 border-slate-400 mb-[-5rem]">
                 
-                <div className="pre-p font-medium">
+                <div className="pre-p font-bold">
                     <p>Introduction</p>
                     <p>Marketplaces & Parters</p>
                 </div>
                 <div className="pre-p">
-                    <p className="font-medium">Platform Solutions</p>
+                    <p className="font-bold">Platform Solutions</p>
                     <p>Accept Payments</p>
                     <p>Make Payments</p>
                     <p>Manage Risk</p>
@@ -39,9 +39,9 @@ const Prefooter = () => {
                     <p>Streamline Operations</p>
                 </div>
             </div>
-            <p className=" lg:hidden font-bold mb-[-5rem] text-lg">More</p>
+            <p className=" lg:hidden font-bold mb-[-5rem] text-lg  text-blue-800">More</p>
             <div>
-                <div className="pre-p font-medium border-t pt-2 border-slate-400">
+                <div className="pre-p font-bold border-t pt-2 border-slate-400">
                     <p>NonProfits</p>
                     <p>Pricing</p>
                     <p>Resourse Center</p>

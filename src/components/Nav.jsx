@@ -27,7 +27,7 @@ const Nav = () => {
         setShowLogin(false);
     };
     return (
-        <div className="bg-white flex justify-between p-2 items-center font-medium mb-2">
+        <div className="bg-white flex justify-between p-2 items-center font-bold mb-2">
             <div className="flex items-center gap-7 text-blue-900 text-xl">
                 <img src={Paypal} className="w-10 h-10 m-2 mr-8" alt="logo" />
                 <div className="hidden md:block md:flex lg:gap-12 md:gap-8">

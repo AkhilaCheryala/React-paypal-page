@@ -36,7 +36,7 @@ const Form = () => {
           <p className="text-sm">I consent to PayPal contacting me by phone or by email, and to sending me product
              or industry information relevant to my query. I know I can unsubscribe at any time.</p>
   
-          <button type="submit" className="bg-blue-900 text-white rounded-3xl  p-2 w-1/2 mx-auto hover:bg-blue-700">Submit</button>
+          <button type="submit" className="bg-blue-900 text-white rounded-3xl font-bold  p-2 w-1/2 mx-auto hover:bg-blue-700">Submit</button>
           <p className="text-center">*Required fields</p>
         </form>
       </div>
