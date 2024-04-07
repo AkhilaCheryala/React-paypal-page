@@ -1,7 +1,9 @@
 # Responsive PayPal Page using React and Tailwind CSS
 
 This project is a  designing one of  responsive PayPal page  using React and Tailwind CSS. 
-Live Demo-https://paypalpage.netlify.app/
+
+**[Live Demo](https://paypalpage.netlify.app/)**
+
 ## Features
 
 - **Responsive Design**: The PayPal page is designed to be fully responsive, ensuring optimal viewing and interaction experience across various devices and screen sizes.
@@ -16,7 +18,7 @@ Live Demo-https://paypalpage.netlify.app/
 
 ## Description
 
-The project primarily focuses on demonstrating expertise in React and Tailwind CSS while emphasizing the importance of responsive design in modern web development. By showcasing a responsive PayPal page, the developer aims to highlight their skills in frontend development and user interface design.
+The project primarily focuses on demonstrating expertise in React and Tailwind CSS while emphasizing the importance of responsive design in modern web development. 
 
 ## Credits
 
