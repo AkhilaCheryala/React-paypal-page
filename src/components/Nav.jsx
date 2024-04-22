@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Paypal from '../assets/Paypal.svg';
+import Paypal from '../assets/paypal-p.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronRight, faTimes } from '@fortawesome/free-solid-svg-icons';
 import SignUpLogin from "./SignUpLogin";
