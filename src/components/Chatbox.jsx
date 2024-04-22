@@ -22,7 +22,7 @@ const Chatbox = () => {
 
                     <div className="mt-[10.5rem] ">
                         <hr />
-                        <input type="text" placeholder="Type here...." className="px-[0.85rem] border-0 py-2" /><FontAwesomeIcon onClick={handleChatClose} className="absolute bottom-3 right-5" icon={faShare} />
+                        <input type="text" placeholder="Type here...." className="px-[0.85rem] border-0 py-2 focus:outline-none" /><FontAwesomeIcon onClick={handleChatClose} className="absolute bottom-3 right-5" icon={faShare} />
                     </div>
                 </>
             )}
